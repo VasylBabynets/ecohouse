@@ -1,0 +1,42 @@
+.feedback {
+    &__wrapper {
+        margin-left: -8%;
+    }
+    &__slider {
+        margin-top: 100px;
+    }
+    margin-top: 100px;
+    &__title {
+        color: #343633;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 65px;
+        text-align: center;
+    }
+    &__slide {
+        background-color: #89C37F;
+        border-radius: 32px;
+        min-height: 582px;
+        padding: 0 32px 24px 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+// .swiper-slide__text {
+//     margin-top: 16px;
+//     font-weight: 500;
+//     font-size: 20px;
+//     line-height: 30px;
+// }
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width:447px ;
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,0 +1,28 @@
+<div class="calculator">
+    <div class="calculator__container">
+        <div class="calculator__wrapper">
+            <div class="calculator__body">
+                <div class="calculator__body-title"></div>
+                <div class="calculator__body-subtitle"></div>
+                <div class="calculator__main">
+                    <p>
+                        <label>кВт</label>
+                        <input id="inputMPH" type="number" placeholder="кВт"
+                        oninput="speedConverter(this.value)"
+                        onchange="speedConverter(this.value)">
+                      </p>
+                      <p>KPH: <span id="outputKPH"></span></p>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    </div>
+                </div>
+            </div>
+            <div class="calculator__bot">
+                <form class="calculator__form" action="">
+                    <input class="calculator__input" type="text" placeholder="+380 ____________________">
+                </form>
+                <button class = 'calculator__btn Btn'>Отримати прорахунок<img src="@img/btn-arrow.svg" alt="arrow"> </button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+// Заголовки, общие БЄМ блоки и проче...
+.Btn {
+    height: 44px;
+	width: 217px;
+	border: 1px solid $mainColor;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 17px 6px 17px 24px;
+	width: 389px;
+	height: 64px;
+	border-radius: 32px;
+	background-color: $mainColor;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #343633;
+	border-radius: 32px;
+	// margin-left: 24px;
+	a {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
